@@ -8,7 +8,7 @@ if ($wl_theme_options['_frontpage']=="on" && is_front_page())
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
-<!--        <li data-target="#myCarousel" data-slide-to="2"></li>        -->
+        <li data-target="#myCarousel" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner">
         <div class="item active">
@@ -50,18 +50,16 @@ if ($wl_theme_options['_frontpage']=="on" && is_front_page())
       <a class="left carousel-control" href="#myCarousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
       <a class="right carousel-control" href="#myCarousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
  </div><!-- /.carousel -->
+
+
+<div class="feature_section1">
 <div class="zocdoc">
     <a style='display:block;' href='http://www.zocdoc.com/practice/reinhard-dentistry-46762' id='zocdoc_schedule'>
         Reinhard Dentistry
     </a>
-    <a style='display:block; position:relative; left:36px;' href='http://www.zocdoc.com' title='Powered by ZocDoc Doctor Directory'>
-        <img src='http://offsiteSchedule.zocdoc.com/images/remote/powered-by-light.png' height='15' width='92' alt='Powered by ZocDoc Doctor Directory' />
-    </a>
     <script type='text/javascript' src='http://offsiteSchedule.zocdoc.com/remote/Schedule2.js.aspx?providerid=46762&prefix=zocdoc_&bookBtn=http://offsiteSchedule.zocdoc.com/images/remote/book-on-light-small.png&locationId='>
     </script>
 </div>
-
-<div class="feature_section1">
 	<div class="container" style="width: 100%">
 		<div class="front-page-about section-div">
 			<h3 class="section-title">About</h3>

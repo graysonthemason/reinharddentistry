@@ -1,14 +1,16 @@
 <?php
-/*
-	$nonce=$_REQUEST['_wpnonce'];
-	echo $nonce;
+//including wordpress files
+require_once( explode( "wp-content" , __FILE__ )[0] . "wp-load.php" );
 
-    	if (! wp_verify_nonce($nonce) ) die("Security check");
-*/
-	$to = $_REQUEST['to_email'];
+	$nonce=$_REQUEST['_wpnonce'];
+	//echo $nonce;
+
+    	if (! wp_verify_nonce($nonce, 'my-nonce') ) die("Security check. Improper access");
+    	
+
+	$to = think_contact_form_get_to_email();
 	$email = $_REQUEST['email'] ;
 	$name= $_REQUEST['name'] ;
-	$phone = $_REQUEST['phone'];
 	$subject = $_REQUEST['subject'] ;
 	$message = $_REQUEST['message'] ;
 	$headers = 'From: '.$name.' Web Contact <'.$email.'>' . "\r\n";
@@ -31,15 +33,11 @@
 		</title>
 		<script type="text/JavaScript">
 			<!--
-			setTimeout("location.href = '<?php echo $referrer ?>';",2500);
+			setTimeout("location.href = '<?php echo $referrer ?>';",1500);
 			-->
 		</script>
 	</head>
-	<div style="margin: auto; text-align: center;">
-		<h1 style="margin-top: 40px;font-weight: 400;
-  color: #13afeb;
-  text-transform: none;
-  font-size: 24px;
-  word-wrap: break-word;font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">Thank you for contacting us. We will get back to you as soon as possible!</h1>
-	</div>
+	<body>
+		Thank you for contact us.  We will get back with you soon.
+	</body>
 </html>

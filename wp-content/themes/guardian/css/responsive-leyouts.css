@@ -3,7 +3,7 @@
 @media only screen and (max-width: 525px) {
 	#address-hide{
 		position: absolute;
-		top: 161px;
+		top: 100px;
 		left: 98px;
 	}
 }
@@ -613,7 +613,6 @@ ul.post_meta_links_small {
 
 #trueHeader #logo{
 	text-align: center;
-	background:url(../images/logo.png) no-repeat center bottom;
 }
 #trueHeader .logo {
 	width: 100%;
@@ -1299,7 +1298,6 @@ ul.adsbanner-list {
 
 #trueHeader #logo{
 	text-align: center;
-	background:url(../images/logo.png) no-repeat center bottom;
 }
 #trueHeader .logo {
 	width: 100%;
@@ -1316,7 +1314,7 @@ ul.adsbanner-list {
 
 .parallax_sec1 ul.left {
 	width: 100%;
-	padding-right: 0%;
+	padding-right: 0;
 	border-right: none;
 	margin-bottom: 40px;
 }
@@ -1326,11 +1324,11 @@ ul.adsbanner-list {
 .parallax_sec1 .left li i {
 	float: left;
 	margin-right: 30px;
-	margin-left: 0px;
+	margin-left: 0;
 }
 .parallax_sec1 ul.right {
 	width: 100%;
-	padding-left: 0%;
+	padding-left: 0;
 }
 
 .parallax_sec2 .hvideo iframe {

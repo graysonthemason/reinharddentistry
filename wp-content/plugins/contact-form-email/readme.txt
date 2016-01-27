@@ -3,8 +3,8 @@ Contributors: jeffbullins
 Donate link: http://www.thinklandingpages.com
 Tags: contact form, email submit form, message form, email subscription, attachment, contact, contatc, conact, cnotact, contact button, contact form plugin, contact me, contacts, contacts form plugin, copy, feedback, feedback form, form, insert the shortcode, post feedback, request, send, send copy, send messages, shortcode, text, web-page feedback
 Requires at least: 3.0
-Tested up to: 4.1
-Stable tag: 1.2
+Tested up to: 4.1.5
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -60,6 +60,9 @@ Yes, there is a place on the contact form settings page to enter the email addre
 = Does the contact form allow the sender to put a subject? =
 Yes, the contact form allow the sender to pt a subject.
 
+= Is there a dedicated message box on the contact form? =
+Yes, there is a dedicated message box on the form.
+
 
 == Screenshots ==
 
@@ -77,4 +80,7 @@ Yes, the contact form allow the sender to pt a subject.
 = 1.2 =
 * Added id to html form
 
+= 1.3 =
+* Fixed email_to security issue
+* Added nonce
 

@@ -2,7 +2,7 @@
 /*
 Plugin Name: Contact Form
 Description: An easy way to create a contact form for your Wordpress site.
-Version: 1.2
+Version: 1.3
 Author: Jeff Bulllins
 Author URI: http://www.thinklandingpages.com
 */
@@ -135,24 +135,18 @@ class ThinkContactForm{
 		ob_start();
 		//echo '<a href="'.$url.'">';
 		//echo '<span class="'.$color.'_think_contact" style="font-size:'.$font_size.'">'.$text.'</span></a>';
-		echo '<div style="  border: 1px solid lightgray;
-  width: 100%;
-  margin: auto;
-  border-radius: 31px;
-  max-width: 592px;">';
-			echo '<h3 style="margin: 15px; border-bottom: 1px solid #f7f7f7; text-align: center;">Contact Us <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></h3>';
-		echo '<form id="cf-email" action="'. plugin_dir_url(__FILE__).'emailSubmit.php" method="post"><br />';
-		echo '<p><input type="text" name="name" width="100%" placeholder="Name" required="required"></p><br />';
-		echo '<p><input type="email" name="email" width="100%" placeholder="Email" required="required"></p><br />';
-		echo '<p><input type="text" name="phone" width="100%" placeholder="Phone (optional)"></p><br />';
-		echo '<p><input type="text" name="subject" width="100%" placeholder="Subject"></p><br />';
-		echo '<p><textarea name="message" rows="10" width="100%" placeholder="Please leave a message"></textarea></p><br />';
-		echo '<p><input type="hidden" name="to_email" value="'.$my_options[$the_option].'">';
-		$nonce= wp_create_nonce('my-nonce');
+		echo '<div style="text-align: left">';
+		echo '<form id="cf-email" action="'. plugin_dir_url(__FILE__).'emailSubmit.php" method="post">';
+		echo 'Name:<br /><input type="text" name="name" size="30"><br />';
+		echo 'Email:<br /><input type="text" name="email" size="30"><br />';
+		//echo 'Phone:<br /><input type="text" name="phone" size="30"><br />';
+		echo 'Subject:<br /><input type="text" name="subject" size="30"><br />';
+		echo 'Message:<br /><textarea name="message" rows="10" cols="20"></textarea><br />';
+		
 		wp_nonce_field('my-nonce');
 		apply_filters('cf_add_to_form_filter', null);
-		echo '<input class="btn-lg btn-primary" style="border: none;" type="submit" value="Submit"></p>';
-		echo '</form><br />';
+		echo '<input class="review" type="submit" value="Submit">';
+		echo '</form>';
 		echo '</div>';
 		
 		return ob_get_clean();
@@ -188,9 +182,23 @@ class ThinkContactForm{
 
 */
 
-	
+function get_to_email(){
+		$my_option_string = $this->thinkContactForm->get_option_group().'_settings';
+		$my_options = get_option($my_option_string);
+		$the_option = $this->thinkContactForm->get_option_group() .'_general_to_email';
+		return $my_options[$the_option];
+	}
 
 }
-new ThinkContactForm();
+$GLOBALS['think_contact_form_Admin'] = new ThinkContactForm();
 
+function think_contact_form_Admin() {
+	global $think_contact_form_Admin;
+	return $think_contact_form_Admin;
+}
+
+function think_contact_form_get_to_email(){
+	global $think_contact_form_Admin;
+	return $think_contact_form_Admin->get_to_email();
+}
 ?>

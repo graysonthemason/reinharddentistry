@@ -13,7 +13,7 @@
 	<link rel="shortcut icon" href="<?php  echo esc_url($wl_theme_options['upload_image_favicon']); ?>" /> 
 	<?php } ?>	
 	<?php wp_head(); ?>
-	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+<!--	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">-->
 	<!-- Google Tag Manager -->
 	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WKCLWX"
 					  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -78,11 +78,7 @@
 							{ ?>
 							<img src="<?php echo esc_url($wl_theme_options['upload_image_logo']); ?>" style="height:<?php if($wl_theme_options['height']!='') { echo $wl_theme_options['height']; }  else { "50"; } ?>px; width:<?php if($wl_theme_options['width']!='') { echo $wl_theme_options['width']; }  else { "180"; } ?>px;" />
 							<?php } else { ?>
-								<img src="/wp-content/themes/guardian/images/ReinhardDentistryLogo_final.png" style="height: 99px;
-    margin-top: -14px;
-    left: 271px;
-    position: absolute;
-    z-index: 10;" />
+								<img src="/wp-content/themes/guardian/images/ReinhardDentistryLogo.png" style="height: 99px;margin-top: -14px;left: 283px;position: absolute;z-index: 10;" />
 								<?php echo "Reinhard Dentistry"; //bloginfo( 'title' ); ?>
 							<?php } ?>
 						</a>

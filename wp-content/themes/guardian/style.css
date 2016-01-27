@@ -5530,7 +5530,7 @@ width: 100%;
 
 .front-page-about {
 	margin-top: 16px;
-	max-width: 49%;
+	max-width: 49.5%;
 	float: left;
 	font-family: "Open Sans",Helvetica,Arial,sans-serif;
 	padding: 15px;
@@ -5542,7 +5542,7 @@ width: 100%;
 }
 .front-page-reviews {
 	margin-top: 16px;
-	width: 49%;
+	width: 49.5%;
 	float: right;
 	font-family: "Open Sans",Helvetica,Arial,sans-serif;
 	padding: 15px;
@@ -5556,7 +5556,7 @@ width: 100%;
 }
 .front-page-contact {
 	margin-top: 16px;
-	width: 49%;
+	width: 49.5%;
 	float: left;
 	font-family: "Open Sans",Helvetica,Arial,sans-serif;
 	padding: 15px;
@@ -5619,7 +5619,15 @@ ul.footer-list li {
     box-sizing:border-box;
 
 }
-.zocdoc{
+.zocdoc {
 	text-align: center;
-	margin: 10px 0 6px;
+	margin: 10px 0 0;
+}
+
+[id*=gpr_widget].gpr-widget-align-right {
+	margin: 0 !important;
+}
+
+#cf-email .review {
+	margin-bottom: 0;
 }
