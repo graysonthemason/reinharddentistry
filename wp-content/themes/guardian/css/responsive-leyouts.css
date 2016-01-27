@@ -133,13 +133,6 @@
 	width: 25%;
 }
 
-.post_info_content {
-	padding: 0px;
-	margin: 10px 0 0 11%;
-	width: 89%;
-	float: left;
-}
-
 .contactform_footer .sky-form .button {
 	width: 89%;
 }
@@ -206,10 +199,6 @@
 		width: 100% ;
 		max-width: 100% ;
 	}
-	div.front-page-contact {
-		width: 100% ;
-		max-width: 100% ;
-	}
 	div.front-page-reviews {
 		width: 100%;
 	}
@@ -273,10 +262,6 @@
 
 .feature_section14 .left .conta {
 	background-size: 50%;
-	background-position: right 100px;
-}
-.feature_section14 .right .conta {
-	background-size: 75%;
 	background-position: right 100px;
 }
 
@@ -620,7 +605,7 @@ ul.post_meta_links_small {
 	text-align: center;
 }
 
-.menu_main {
+.menu_main, .parallax_sec2 .hvideo iframe {
 	float: none;
 	width: 90%;
 	margin: 0 auto;
@@ -645,11 +630,6 @@ ul.post_meta_links_small {
 	padding-left: 0%;
 }
 
-.parallax_sec2 .hvideo iframe {
-	float: none;
-	margin: 0 auto;
-	width: 90%;
-}
 .parallax_sec2 .hvideo.right iframe {
 	float: none;
 }
@@ -919,42 +899,7 @@ ul.adsbanner-list {
 	width: 100%;
 	margin-top: 30px;
 }
-.comment_form label{
-	float: left;
-	width: 90px;
-	height: 15px;
-	padding: 7px 10px;
-	margin-bottom: 20px;
-}
-.comment_input_bg {
-	float: left;
-	width: 68%;
-	height: 25px;
-	padding: 7px 10px 0px 10px;
-	border-top: 2px solid #e3e3e3;
-	border-left: 2px solid #e3e3e3;
-	border-right: 1px solid #e3e3e3;
-	border-bottom: 1px solid #e3e3e3;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	background-color: #f9f9f9;
-}
-.comment_textarea_bg {
-	float: left;
-	width: 94%;
-	height: 235px;
-	padding: 7px 10px 0px 10px;
-	margin-bottom: 20px;
-	border-top: 2px solid #e3e3e3;
-	border-left: 2px solid #e3e3e3;
-	border-right: 1px solid #e3e3e3;
-	border-bottom: 1px solid #e3e3e3;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	background-color: #f9f9f9;
-}
+
 .comment_checkbox {
 	float: left;
 	display: block;
@@ -1129,10 +1074,6 @@ ul.adsbanner-list {
 	width: 80%;
 }
 
-.fuicsec .one_fifth {
-	text-align: center;
-	border-right: 0px solid #e0e0e0;
-}
 .fuicsec i {
 	float: none;
 	font-size: 35px;
