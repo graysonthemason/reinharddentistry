@@ -83,30 +83,6 @@
 							<?php } ?>
 						</a>
 					</div>
-					<!-- Menu -->
-					<div class="menu_main">
-						<div class="navbar yamm navbar">
-						<div class="container">
-								<div class="navbar-header">
-									<div class="navbar-toggle .navbar-collapse .pull-right " data-toggle="collapse" data-target="#navbar-collapse-1"  ><span><?php __('Menu',gr_td); ?></span>
-										<button type="button" ><i class="fa fa-bars"></i></button>
-									</div>
-								</div>
-								<!-- /Navigation  menus -->
-							<div id="navbar-collapse-1" class="navbar-collapse collapse pull-right">
-							<?php
-									wp_nav_menu( array(
-											'theme_location' => 'primary',
-											'container'  => '',
-											'menu_class' => 'nav navbar-nav',
-											'fallback_cb' => 'weblizar_fallback_page_menu',
-											'walker' => new weblizar_nav_walker()
-											)
-										);
-									?>
-							</div>
-						 </div>
-					</div><!-- end menu -->
 				</div>
 			</div>			
 		</div>    

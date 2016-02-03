@@ -10,9 +10,9 @@
 		
 	//Sane Defaults
 	function weblizar_default_settings()
-{	$ImageUrl = get_template_directory_uri() ."/images/invisalign-banner-new.jpg";
+{	$ImageUrl = get_template_directory_uri() ."/images/invisalign-banner.jpg";
 	$ImageUrl2 = get_template_directory_uri() ."/images/insurance-banner.jpg";
-//	$ImageUrl3 = get_template_directory_uri() ."/images/slide-3.jpg";
+	$ImageUrl3 = get_template_directory_uri() ."/images/top-dentist-banner.jpg";
 	return $theme_options=array(
 			//Logo and Fevicon header			
 			'upload_image_logo'=>'',

@@ -5549,3 +5549,9 @@ ul.footer-list li {
 #cf-email .review {
 	margin-bottom: 0;
 }
+
+@media only screen and (max-width: 479px) {
+	div #header {
+		height: 128px !important;
+	}
+}

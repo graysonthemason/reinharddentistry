@@ -41,7 +41,7 @@ if ($wl_theme_options['_frontpage']=="on" && is_front_page())
         </div>
         <div class="item ">
 
-			<img src="http://www.reinharddentistry.com/wp-content/uploads/2015/10/top-dentist-banner.jpg" class="img-responsive" alt="Second slide">
+			<img src="http://www.reinharddentistry.com/wp-content/themes/guardian/images/top-dentist-banner.jpg" class="img-responsive" alt="Second slide">
 
 			<div class="container">
 			</div>
@@ -69,7 +69,7 @@ if ($wl_theme_options['_frontpage']=="on" && is_front_page())
 		</div>
 		<div class="front-page-reviews section-div">
 				<h3 class="section-title">Reviews</h3>
-			<a class="review" href="https://plus.google.com/114301656603886368046/about?review=1" target="_blank">Already a patient? Click here to leave a review!</a>
+			<a class="review" href="https://www.google.com/search?q=reinhard+dentistry+reviews&oq=reinhard+dentistry+reviews&aqs=chrome.0.69i59j69i57j69i60l3.3179j0j4&sourceid=chrome&es_sm=91&ie=UTF-8#es_sm=91&lrd=0x89c3a7cca88de5d7:0xd2238efb2dea1a93,1,," target="_blank">Already a patient? Click here to leave a review!</a>
 		<?php echo (do_shortcode('[google-places-reviews  max_width="zx100%" hide_google_image="true" align="right" id="ChIJ1-WNqMynw4kRkxrqLfuOI9I"]'));?>
 		</div>
 		<a name="contact">
