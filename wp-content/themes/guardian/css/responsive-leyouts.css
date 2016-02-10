@@ -17,9 +17,9 @@
 	.navbar-toggle {
 		position: absolute;
 		padding: 9px 10px;
-		margin-top: 0px;
-		margin-right: 0px;
-		margin-bottom: 0px;
+		margin-top: 0;
+		margin-right: 0;
+		margin-bottom: 0;
 		background-color: transparent;
 		border: 1px solid transparent;
 		border-radius: 4px;
@@ -56,8 +56,8 @@
 }
 
 .parallax_sec5 .appicons1 {
-	margin: 30px 0px 50px 0px;
-	padding: 20px 0px;
+	margin: 30px 0 50px 0;
+	padding: 20px 0;
 }
 .parallax_sec5 .appicons1 i {
 	font-size: 35px;
@@ -68,7 +68,7 @@
 	background: url(../images/site-img17.jpg) no-repeat center 120px;
 	background-size: 100%;
 	min-height: 500px;
-	padding: 70px 0px 0px 0px;
+	padding: 70px 0 0 0;
 }
 .feature_section16 .mcbox {
 	margin-top: 10px;
@@ -169,8 +169,8 @@
 
 .parallax_sec9 li {
 	width: 18%;
-	margin: 0px 5px;
-	padding: 12px 0px;
+	margin: 0 5px;
+	padding: 12px 0;
 }
 .parallax_sec9 li img {
 	width: 90%;
@@ -210,8 +210,8 @@
 
 .menu_main {
 	float: right;
-	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .parallax_sec1 ul.left {
@@ -240,7 +240,7 @@
 	margin-right: 3%;
 }
 .feature_section8 .right {
-	padding-top: 0px;
+	padding-top: 0;
 }
 
 .feature_section10 {
@@ -267,8 +267,8 @@
 }
 
 .parallax_sec5 .appicons1 {
-	margin: 25px 0px 40px 0px;
-	padding: 20px 0px;
+	margin: 25px 0 40px 0;
+	padding: 20px 0;
 }
 .parallax_sec5 .appicons1 i {
 	font-size: 30px;
@@ -290,18 +290,18 @@
 	background: url(../images/site-img17.jpg) no-repeat center 120px;
 	background-size: 100%;
 	min-height: 390px;
-	padding: 70px 0px 0px 0px;
+	padding: 70px 0 0 0;
 }
 .feature_section16 .mcbox {
 	width: 18.7%;
-	margin-top: 0px;
+	margin-top: 0;
 }
 .feature_section16 .mcbox.last {
 	margin-top: 123px;
 }
 
 .feature_section20 .left {
-	padding-top: 0px;
+	padding-top: 0;
 }
 .feature_section20 .right img {
 	width: 100%;
@@ -372,20 +372,20 @@
 }
 
 .post_info_content {
-	padding: 0px;
+	padding: 0;
 	margin: 13px 0 0 15%;
 	width: 85%;
 	float: left;
 }
 .post_info_content_small {
-	padding: 0px;
+	padding: 0;
 	margin: 0 0 0 2.5%;
 	width: 51.7%;
 	float: left;
 }
 .post_info_content_small a.date {
 	float: left;
-	margin: 0px 10px 0px 0px;
+	margin: 0 10px 0;
 }
 .post_info_content_small h3 {
 	font-size: 18px;
@@ -394,8 +394,8 @@
 }
 ul.post_meta_links_small {
 	float: left;
-	margin: -15px 0px 12px 70px;
-	padding: 0px 0px 0px 0px;
+	margin: -15px 0 12px 70px;
+	padding: 0;
 	width: 70%;
 }
 .blog_postcontent .video_frame iframe {
@@ -407,12 +407,12 @@ ul.post_meta_links_small {
 }
 
 .adsbanner-list li {
-	margin: 0px 5px 5px 0px;
+	margin: 0 5px 5px 0;
 	width: 90px;
 	height: 90px;
 }
 .adsbanner-list li.last {
-	margin: 0px;
+	margin: 0;
 	width: 90px;
 	height: 90px;
 }
@@ -447,7 +447,7 @@ ul.post_meta_links_small {
 
 
 .feature_section35 {
-	padding: 70px 0px 70px 0px;
+	padding: 70px 0 70px 0;
 }
 .feature_section35 .left img {
 	float: left;
@@ -480,8 +480,8 @@ ul.post_meta_links_small {
 
 .parallax_sec9 li {
 	width: 18%;
-	margin: 0px 5px;
-	padding: 12px 0px;
+	margin: 0 5px;
+	padding: 12px 0;
 }
 .parallax_sec9 li img {
 	width: 90%;
@@ -546,22 +546,22 @@ ul.post_meta_links_small {
 .content_left {
 	float: left;
 	width: 100%;
-	padding: 59px 0px 0px 0px;
+	padding: 59px 0;
 }
 .right_sidebar {
 	float: left;
 	width: 100%;
-	padding: 59px 0px 0px 0px;
+	padding: 59px 0;
 }
 .left_sidebar {
 	float: left;
 	width: 100%;
-	padding: 59px 0px 0px 0px;
+	padding: 59px 0;
 }
 .content_right {
 	float: left;
 	width: 100%;
-	padding: 59px 0px 0px 0px;
+	padding: 59px 0;
 }
 
 .one_half, .one_third, .one_fourth, .two_third, .three_fourth, .one_fifth {
@@ -624,7 +624,7 @@ ul.post_meta_links_small {
 .parallax_sec1 .left li i {
 	float: left;
 	margin-right: 30px;
-	margin-left: 0px;
+	margin-left: 0;
 }
 .parallax_sec1 ul.right {
 	width: 100%;
@@ -669,7 +669,7 @@ ul.post_meta_links_small {
 .feature_section10 .left .flist {
 	float: left;
 	padding-left: 65px;
-	padding-right: 0px;
+	padding-right: 0;
 	background: url(../images/site-img10.png) no-repeat -80px 10px;
 }
 .feature_section10 .right {
@@ -682,7 +682,7 @@ ul.post_meta_links_small {
 .feature_section10 .right .flist {
 	float: left;
 	padding-left: 65px;
-	padding-right: 0px;
+	padding-right: 0;
 	background: url(../images/site-img10.png) no-repeat -80px 10px;
 }
 .feature_section10 .margin_top7 {
@@ -734,7 +734,7 @@ ul.post_meta_links_small {
 	float: left;
 	width: 100%;
 	margin-left: 0%;
-	padding-top: 0px;
+	padding-top: 0;
 }
 .feature_section20 .right {
 	float: left;
@@ -761,7 +761,7 @@ ul.post_meta_links_small {
 	margin: 0 auto;
 }
 .feature_section25 ul.active {
-	margin-top: 0px;
+	margin-top: 0;
 }
 
 
@@ -797,7 +797,7 @@ ul.post_meta_links_small {
 }
 
 .footer1 {
-	padding-bottom: 0px;
+	padding-bottom: 0;
 }
 .twitter_feed .right {
 	float: left;
@@ -807,7 +807,7 @@ ul.footer_social_links {
 	margin-top: 20px;
 }
 .copyright_info .one_half {
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 .error_pagenotfound {
@@ -848,7 +848,7 @@ ul.footer_social_links {
 }
 .punchline_text_box .right a.knowmore_but {
 	float: left;
-	margin-left: 0px;
+	margin-left: 0;
 	margin-top: 20px;
 }
 
@@ -857,17 +857,17 @@ ul.footer_social_links {
 }
 
 .site-search-area {
-	margin: 0px 0px 0px 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	float: left;
 	width: 100%;
 }
 
 .page_title2 .two_third {
-	margin: 0px;
+	margin: 0;
 }
 .page_title2 .one_third {
-	margin: 0px;
+	margin: 0;
 }
 
 
@@ -875,16 +875,16 @@ ul.adsbanner-list {
 	width: 50%;
 }
 .adsbanner-list li {
-	margin: 0px 10px 10px 0px;
-	padding: 0px;
+	margin: 0 10px 10px 0;
+	padding: 0;
 	float: left;
 	width: 100px;
 	height: 100px;
 	list-style-type: none;
 }
 .adsbanner-list li.last {
-	margin: 0px 0px 0px 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	float: left;
 	width: 100px;
 	height: 100px;
@@ -915,20 +915,20 @@ ul.adsbanner-list {
 .pricing-tables {width: 24.5%; }
 .pricing-tables .title{ font-size: 14px; }
 .pricing-tables .price{ font-size: 20px; }
-.pricing-tables .price i{ font-size: 9px; margin-top: 0px; }
+.pricing-tables .price i{ font-size: 9px; margin-top: 0; }
 .pricing-tables-helight{position: relative;float: left; width: 24.5%; }
 .pricing-tables-helight .title{ font-size: 14px; }
 .pricing-tables-helight .price{ font-size: 20px; }
-.pricing-tables-helight .price i{ font-size: 9px; margin-top: 0px; }
+.pricing-tables-helight .price i{ font-size: 9px; margin-top: 0; }
 
 .pricing-tables-two {width: 33%; }
 .pricing-tables-two .title{ font-size: 14px; }
 .pricing-tables-two .price{ font-size: 20px; }
-.pricing-tables-two .price i{ font-size: 9px; margin-top: 0px; }
+.pricing-tables-two .price i{ font-size: 9px; margin-top: 0; }
 .pricing-tables-helight-two{position: relative;float: left; width: 33%; }
 .pricing-tables-helight-two .title{ font-size: 14px; }
 .pricing-tables-helight-two .price{ font-size: 20px; }
-.pricing-tables-helight-two .price i{ font-size: 9px; margin-top: 0px; }
+.pricing-tables-helight-two .price i{ font-size: 9px; margin-top: 0; }
 
 
 .contactform_footer {
@@ -947,34 +947,34 @@ ul.adsbanner-list {
 }
 
 .portfolio_area_left {
-	padding: 0px;
-	margin: 0px 0px 30px 0px;
+	padding: 0;
+	margin: 0 30px 0;
 	width: 98%;
 	float: left;
 }
 .portfolio_area_right {
-	padding: 0px;
-	margin: 0px 0px 0px 0px;
+	padding: 0;
+	margin: 0;
 	width: 98%;
 	float: left;
 }
 .project_details {
-	padding: 0px;
-	margin: 65px 0px 0px 0px;
+	padding: 0;
+	margin: 65px 0;
 }
 .addto_favorites {
 	float: left;
-	margin: 15px 0px 0px 0px;
+	margin: 15px 0;
 }
 .addto_favorites:hover {
 	float: left;
-	margin: 15px 0px 0px 0px;
+	margin: 15px 0;
 }
 .portfolio_area_right ul.small_social_links {
-	margin: 22px 0px 0px 170px;
+	margin: 22px 0 170px;
 }
 .project_details span {
-	padding: 4px 0px;
+	padding: 4px 0;
 }
 .project_details strong {
 	width: 22%;
@@ -1010,7 +1010,7 @@ ul.adsbanner-list {
 }
 
 .feature_section35 {
-	padding: 70px 0px 70px 0px;
+	padding: 70px 0 70px 0;
 }
 .feature_section35 .left {
 	width: 100%;
@@ -1052,8 +1052,8 @@ ul.adsbanner-list {
 
 .parallax_sec9 li {
 	width: 18%;
-	margin: 0px 2px;
-	padding: 12px 0px;
+	margin: 0 2px;
+	padding: 12px 0;
 }
 .parallax_sec9 li img {
 	width: 90%;
@@ -1174,22 +1174,22 @@ ul.adsbanner-list {
 .content_left {
 	float: left;
 	width: 100%;
-	padding: 59px 0px 0px 0px;
+	padding: 59px 0;
 }
 .right_sidebar {
 	float: left;
 	width: 100%;
-	padding: 59px 0px 0px 0px;
+	padding: 59px 0;
 }
 .left_sidebar {
 	float: left;
 	width: 100%;
-	padding: 59px 0px 0px 0px;
+	padding: 59px 0;
 }
 .content_right {
 	float: left;
 	width: 100%;
-	padding: 59px 0px 0px 0px;
+	padding: 59px 0;
 }
 
 .one_half, .one_third, .one_fourth, .two_third, .three_fourth, .one_fifth {
@@ -1235,7 +1235,7 @@ ul.adsbanner-list {
 	float: left;
 }
 .top_nav .right li {
-	margin: 10px 5px 0px 0px;
+	margin: 10px 5px 0;
 }
 
 #trueHeader #logo{
@@ -1322,7 +1322,7 @@ ul.adsbanner-list {
 .feature_section10 .left .flist {
 	float: left;
 	padding-left: 50px;
-	padding-right: 0px;
+	padding-right: 0;
 	background: url(../images/site-img10.png) no-repeat -91px 10px;
 }
 .feature_section10 .right {
@@ -1335,7 +1335,7 @@ ul.adsbanner-list {
 .feature_section10 .right .flist {
 	float: left;
 	padding-left: 50px;
-	padding-right: 0px;
+	padding-right: 0;
 	background: url(../images/site-img10.png) no-repeat -91px 10px;
 }
 .feature_section10 .margin_top7 {
@@ -1424,7 +1424,7 @@ ul.adsbanner-list {
 	float: left;
 	width: 100%;
 	margin-left: 0%;
-	padding-top: 0px;
+	padding-top: 0;
 }
 .feature_section20 .right {
 	float: left;
@@ -1448,7 +1448,7 @@ ul.adsbanner-list {
 	margin: 0 auto;
 }
 .feature_section25 ul.active {
-	margin-top: 0px;
+	margin-top: 0;
 }
 
 
@@ -1503,14 +1503,14 @@ h2.section_title_whitebig strong {
 }
 
 .footer1 {
-	padding-bottom: 0px;
+	padding-bottom: 0;
 }
 ul.footer_social_links {
 	float: left;
 	margin-top: 20px;
 }
 .copyright_info .one_half {
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 .error_pagenotfound {
@@ -1519,7 +1519,7 @@ ul.footer_social_links {
 }
 .error_pagenotfound strong {
 	font-size: 100px;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 .error_pagenotfound b {
 	font-size: 20px;
@@ -1560,7 +1560,7 @@ ul.footer_social_links {
 }
 .punchline_text_box .right a.knowmore_but {
 	float: left;
-	margin-left: 0px;
+	margin-left: 0;
 	margin-top: 20px;
 }
 
@@ -1569,36 +1569,36 @@ ul.footer_social_links {
 }
 
 .site-search-area {
-	margin: 0px 0px 0px 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	float: left;
 	width: 100%;
 }
 
 .page_title2 .two_third {
-	margin: 0px;
+	margin: 0;
 }
 .page_title2 .one_third {
-	margin: 0px;
+	margin: 0;
 }
 
 ul.adsbanner-list {
-	margin: 0px 0px 0px 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	float: left;
 	width: 50%;
 }
 .adsbanner-list li {
-	margin: 0px 10px 10px 0px;
-	padding: 0px;
+	margin: 0 10px 10px 0;
+	padding: 0;
 	float: left;
 	width: 110px;
 	height: 110px;
 	list-style-type: none;
 }
 .adsbanner-list li.last {
-	margin: 0px 0px 0px 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	float: left;
 	width: 110px;
 	height: 110px;
@@ -1609,7 +1609,7 @@ ul.adsbanner-list {
 	height: auto;
 }
 ul.adsbanner-list.two {
-	margin: 0px 0px 0px 0px;
+	margin: 0;
 	float: left;
 }
 
@@ -1629,7 +1629,7 @@ ul.adsbanner-list.two {
 	float: left;
 	width: 52%;
 	height: 25px;
-	padding: 7px 10px 0px 10px;
+	padding: 7px 10px 0 10px;
 	border-top: 2px solid #e3e3e3;
 	border-left: 2px solid #e3e3e3;
 	border-right: 1px solid #e3e3e3;
@@ -1643,7 +1643,7 @@ ul.adsbanner-list.two {
 	float: left;
 	width: 90%;
 	height: 235px;
-	padding: 7px 10px 0px 10px;
+	padding: 7px 10px 0 10px;
 	margin-bottom: 20px;
 	border-top: 2px solid #e3e3e3;
 	border-left: 2px solid #e3e3e3;
@@ -1668,20 +1668,20 @@ ul.adsbanner-list.two {
 .pricing-tables {width: 24%; }
 .pricing-tables .title{ font-size: 12px; }
 .pricing-tables .price{ font-size: 18px; }
-.pricing-tables .price i{ font-size: 9px; margin-top: 0px; }
+.pricing-tables .price i{ font-size: 9px; margin-top: 0; }
 .pricing-tables-helight{position: relative;float: left; width: 24%; }
 .pricing-tables-helight .title{ font-size: 12px; }
 .pricing-tables-helight .price{ font-size: 18px; }
-.pricing-tables-helight .price i{ font-size: 9px; margin-top: 0px; }
+.pricing-tables-helight .price i{ font-size: 9px; margin-top: 0; }
 
 .pricing-tables-two {width: 32%; }
 .pricing-tables-two .title{ font-size: 12px; }
 .pricing-tables-two .price{ font-size: 18px; }
-.pricing-tables-two .price i{ font-size: 9px; margin-top: 0px; }
+.pricing-tables-two .price i{ font-size: 9px; margin-top: 0; }
 .pricing-tables-helight-two{position: relative;float: left; width: 33%; }
 .pricing-tables-helight-two .title{ font-size: 12px; }
 .pricing-tables-helight-two .price{ font-size: 18px; }
-.pricing-tables-helight-two .price i{ font-size: 9px; margin-top: 0px; }
+.pricing-tables-helight-two .price i{ font-size: 9px; margin-top: 0; }
 
 .pricing-tables-main .ordernow .normalbut{
 	padding: 10px 4px;
@@ -1708,34 +1708,34 @@ ul.adsbanner-list.two {
 }
 
 .portfolio_area_left {
-	padding: 0px;
-	margin: 0px 0px 30px 0px;
+	padding: 0;
+	margin: 0 30px 0;
 	width: 98%;
 	float: left;
 }
 .portfolio_area_right {
-	padding: 0px;
-	margin: 0px 0px 0px 0px;
+	padding: 0;
+	margin: 0;
 	width: 98%;
 	float: left;
 }
 .project_details {
-	padding: 0px;
-	margin: 65px 0px 0px 0px;
+	padding: 0;
+	margin: 65px 0;
 }
 .addto_favorites {
 	float: left;
-	margin: 15px 0px 0px 0px;
+	margin: 15px 0;
 }
 .addto_favorites:hover {
 	float: left;
-	margin: 15px 0px 0px 0px;
+	margin: 15px 0;
 }
 .portfolio_area_right ul.small_social_links {
-	margin: 22px 0px 0px 170px;
+	margin: 22px 0 170px;
 }
 .project_details span {
-	padding: 4px 0px;
+	padding: 4px 0;
 }
 .project_details strong {
 	width: 30%;
@@ -1794,7 +1794,7 @@ ul.adsbanner-list.two {
 }
 
 .feature_section35 {
-	padding: 70px 0px 70px 0px;
+	padding: 70px 0 70px 0;
 }
 .feature_section35 .left {
 	width: 100%;
@@ -1836,8 +1836,8 @@ ul.adsbanner-list.two {
 
 .parallax_sec9 li {
 	width: 18%;
-	margin: 0px 2px;
-	padding: 12px 0px;
+	margin: 0 2px;
+	padding: 12px 0;
 }
 .parallax_sec9 li img {
 	width: 90%;
@@ -1873,7 +1873,7 @@ ul.adsbanner-list.two {
 
 .fuicsec .one_fifth {
 	text-align: center;
-	border-right: 0px solid #e0e0e0;
+	border-right: 0 solid #e0e0e0;
 }
 .fuicsec i {
 	float: none;
