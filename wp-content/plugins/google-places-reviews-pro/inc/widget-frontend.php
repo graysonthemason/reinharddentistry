@@ -36,7 +36,7 @@ if ( isset( $instance['imageurl'] ) && ! empty( $instance['imageurl'] ) ) {
 		if ( $hide_header !== '1' ) {
 			?>
 
-			<div class="gpr-business-header gpr-clearfix" style="border-bottom: 1px solid #EBE6E2;	">
+			<div class="gpr-business-header gpr-clearfix">
 
 				<div class="gpr-business-avatar" style="background-image: url(<?php echo $place_avatar; ?>)"></div>
 

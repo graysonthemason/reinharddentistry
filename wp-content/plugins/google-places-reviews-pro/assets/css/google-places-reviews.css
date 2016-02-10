@@ -248,22 +248,3 @@ Read More
 .readmore-js-toggle {
 	font-size: 12px;
 }
-
-.front-page-about {
-	max-width: 49.5%;
-}
-.front-page-reviews {
-	width: 50%;
-	float: left;
-	font-family: "Open Sans",Helvetica,Arial,sans-serif;
-	padding: 15px;
-	position: relative;
-	background: #FFF;
-	border-radius: 4px;
-	color: #7E7975;
-	box-shadow: 0 2px 2px rgba(0,0,0,.2),0 1px 5px rgba(0,0,0,.2);
-}
-
-h3.gpr-widget-title {
-	display: none !important;
-}

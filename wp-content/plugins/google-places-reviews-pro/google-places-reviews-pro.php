@@ -3,7 +3,7 @@
  * Plugin Name: Google Places Reviews Pro
  * Plugin URI: http://wordimpress.com/plugins/google-places-reviews-pro/
  * Description: Display Google Places Reviews for one or many businesses anywhere on your WordPress site using an easy to use and intuitive shortcode and widget. This is the premium version of the plugin. Thank you for your purchase and supporting sustained development.
- * Version: 1.3.3
+ * Version: 1.3.4
  * Author: WordImpress
  * Author URI: http://wordimpress.com/
  * Text Domain: gpr
@@ -22,7 +22,6 @@ if ( ! class_exists( 'WP_Google_Places_Reviews' ) ) {
 		public function __construct() {
 
 			add_action( 'init', array( $this, 'load_plugin_textdomain' ) );
-			add_action( 'init', array( $this, 'version_check' ), 1 );
 
 			/**
 			 * Define Constants
@@ -38,6 +37,20 @@ if ( ! class_exists( 'WP_Google_Places_Reviews' ) ) {
 			define( 'GPR_PLUGIN_NAME_PLUGIN', plugin_basename( __FILE__ ) );
 			define( 'GPR_PLUGIN_PATH', untrailingslashit( plugin_dir_path( __FILE__ ) ) );
 			define( 'GPR_PLUGIN_URL', $plugins_url . '/' . basename( plugin_dir_path( __FILE__ ) ) );
+
+			if ( in_array( 'google-places-reviews/google-places-reviews.php', (array) get_option( 'active_plugins', array() ) ) ) {
+
+				add_action( 'admin_notices', array( $this, 'admin_notice' ) );
+
+			} else {
+
+				//@DESC: Register Google Places widget
+				add_action( 'widgets_init', array( $this, 'init_google_places_reviews_widget' ) );
+
+				//Shortcode generator for TinyMCE
+				require_once GPR_PLUGIN_PATH . '/classes/class-shortcode-generator.php';
+			}
+
 		}
 
 
@@ -55,27 +68,6 @@ if ( ! class_exists( 'WP_Google_Places_Reviews' ) ) {
 
 			return self::$_instance;
 		}
-
-
-		/**
-		 * Check Plugin Version
-		 */
-		public function version_check() {
-
-			if ( in_array( 'google-places-reviews/google-places-reviews.php', (array) get_option( 'active_plugins', array() ) ) ) {
-
-				add_action( 'admin_notices', array( $this, 'admin_notice' ) );
-
-			} else {
-				//@DESC: Register Google Places widget
-				add_action( 'widgets_init', array( $this, 'init_google_places_reviews_widget' ) );
-
-				//Shortcode generator for TinyMCE
-				require_once GPR_PLUGIN_PATH . '/classes/class-shortcode-generator.php';
-			}
-
-		}
-
 
 		/**
 		 * Display Admin Notices
@@ -101,7 +93,7 @@ if ( ! class_exists( 'WP_Google_Places_Reviews' ) ) {
 		/**
 		 * Plugin Setup
 		 */
-		function init_google_places_reviews_widget() {
+		public function init_google_places_reviews_widget() {
 
 			add_action( 'admin_enqueue_scripts', array( $this, 'gpr_options_scripts' ) );
 
