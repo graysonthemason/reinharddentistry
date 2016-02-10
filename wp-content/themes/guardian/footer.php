@@ -52,7 +52,7 @@
 			</ul>
 			<div class="clearfix divider_dashed10"></div>
 
-				<p style="text-align:center;font-size: 12px;">Reinhard Dentistry &copy;<?php 2015?></p>
+				<p style="text-align:center;font-size: 12px;">Reinhard Dentistry &copy;<?php echo date("Y");?></p>
 		</div>
 	</div><!-- end copyright info -->
 	<a href="#" class="scrollup"><?php _e('Scroll','weblizar');?></a><!-- end scroll to top of the page-->	
